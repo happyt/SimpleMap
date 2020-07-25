@@ -28,7 +28,8 @@ export default {
       selected: "none",
       options: [
         { text: "Default", value: "none" },
-        { text: "Timezone", value: "abc" },
+        { text: "ABC", value: "abc" },
+        { text: "DEF", value: "def" },
       ],
     };
   },

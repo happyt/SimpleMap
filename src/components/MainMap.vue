@@ -16,10 +16,10 @@ export default {
     return {
       svgId: "myMap",
       mapAttr: {
-        viewBoxWidth: 1106,
-        viewBoxHeight: 500,
-        imageWidth: 1106,
-        imageHeight: 500,
+        viewBoxWidth: 1000,
+        viewBoxHeight: 2500,
+        imageWidth: 1000,
+        imageHeight: 2500,
       },
       svgContainer: null,
     };
@@ -55,7 +55,8 @@ export default {
         title = this.node.attributes["title"].value;
 
         // need a way to set string from property
-        this.node.classList.toggle("abc");
+        this.node.classList.toggle("def");
+        ////
 
         vue.$emit("map-clicked", { mapId, title });
       });
@@ -90,6 +91,14 @@ path.abc {
 }
 path.abc.on {
   fill: rgb(102, 182, 104);
+  stroke: rgb(25, 100, 71);
+}
+path.def {
+  fill: rgb(22, 36, 156);
+  stroke: rgb(25, 100, 71);
+}
+path.def.on {
+  fill: rgb(94, 92, 216);
   stroke: rgb(25, 100, 71);
 }
 </style>
