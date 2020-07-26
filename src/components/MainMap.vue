@@ -11,6 +11,7 @@ export default {
   name: "VenueMapComponent",
   props: {
     pickColour: String,
+    allColours: Array,
   },
   data: function () {
     return {
@@ -50,15 +51,16 @@ export default {
 
       let mapId = "";
       let title = "";
-      element.click(function () {
-        mapId = this.node.attributes["map-id"].value;
-        title = this.node.attributes["title"].value;
+      element.click(() => {
+        //        console.log(element);
+        mapId = element.node.attributes["map-id"].value;
+        title = element.node.attributes["title"].value;
 
-        // need a way to set string from property
-        this.node.classList.toggle("def");
-        ////
+        let others = this.allColours.filter((item) => item != this.pickColour);
+        element.node.classList.remove(...others);
+        let onOff = element.node.classList.toggle(this.pickColour);
 
-        vue.$emit("map-clicked", { mapId, title });
+        vue.$emit("map-clicked", { mapId, title, onOff });
       });
       element.mouseover(function () {
         mapId = this.node.attributes["map-id"].value;

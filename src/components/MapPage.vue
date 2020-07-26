@@ -11,7 +11,7 @@
     </select>
 
     <div>
-      <main-map v-on:map-clicked="onMapClick" :pickColour="selected"></main-map>
+      <main-map v-on:map-clicked="onMapClick" :pickColour="selected" :allColours="fullSet"></main-map>
     </div>
   </div>
 </template>
@@ -26,6 +26,7 @@ export default {
   data: function () {
     return {
       selected: "none",
+      fullSet: ["none", "abc", "def"],
       options: [
         { text: "Default", value: "none" },
         { text: "ABC", value: "abc" },
@@ -41,7 +42,7 @@ export default {
       this.$notify({
         group: "map",
         title: "Map clicked",
-        text: `You clicked on id: ${attr.mapId} and title: ${attr.title}`,
+        text: `Clicked id: ${attr.mapId}, title: ${attr.title}, onOff: ${attr.onOff}`,
       });
     },
   },
