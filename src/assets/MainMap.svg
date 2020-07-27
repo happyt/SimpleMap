@@ -5,36 +5,13 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="MainMap.svg"
-   inkscape:version="1.0 (4035a4f, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 210 297"
+   width="210mm"
    height="297mm"
-   width="210mm">
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8">
   <defs
      id="defs2" />
-  <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="23"
-     inkscape:window-x="0"
-     inkscape:window-height="1174"
-     inkscape:window-width="1252"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="495.06731"
-     inkscape:cx="287.39435"
-     inkscape:zoom="0.98994949"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -48,37 +25,35 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
-     inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <path
-       d="M 29.482143,49.892857 H 71.45649 V 87.690475 H 29.482143 Z"
+       id="rect10"
        style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.258877"
-       id="rect10" />
+       d="M 29.482143,49.892857 H 71.45649 V 87.690475 H 29.482143 Z" />
     <path
-       d="M 71.059525,67.972794 H 110.36905 V 109.61309 H 71.059525 Z"
+       id="rect12"
        style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.222343"
-       id="rect12" />
+       d="M 71.059525,67.972794 H 110.36905 V 109.61309 H 71.059525 Z" />
     <path
-       d="M 110.36904,52.160713 H 144.3869 V 109.6131 h -34.01786 z"
+       id="rect14"
        style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.261169"
-       id="rect14" />
+       d="M 110.36904,52.160713 H 144.3869 V 109.6131 h -34.01786 z" />
     <path
-       d="m 144.3869,35.529762 h 31.75001 V 109.6131 H 144.3869 Z"
+       id="rect16"
        style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.307867"
-       id="rect16" />
+       d="m 144.3869,35.529762 h 31.75001 V 109.6131 H 144.3869 Z" />
     <path
-       d="m 144.3869,125.48809 h 30.2381 v 42.33333 h -30.2381 z"
+       id="rect18"
        style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.264583"
-       id="rect18" />
+       d="m 144.3869,125.48809 h 30.2381 v 42.33333 h -30.2381 z" />
     <path
-       d="M 55.184521,125.48809 H 144.3869 v 27.97024 H 55.184521 Z"
+       id="rect20"
        style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.280484"
-       id="rect20" />
+       d="M 55.184521,125.48809 H 144.3869 v 27.97024 H 55.184521 Z" />
     <path
-       d="m 30.238094,-153.45831 h 25.70238 v 50.6488 h -25.70238 z"
-       transform="scale(1,-1)"
+       id="rect22"
        style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.227469"
-       id="rect22" />
+       transform="scale(1,-1)"
+       d="m 30.238094,-153.45831 h 25.70238 v 50.6488 h -25.70238 z" />
   </g>
 </svg>
